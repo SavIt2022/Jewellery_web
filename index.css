@@ -7,6 +7,7 @@
  }
     body{
       background: #444343;
+      font-family: sans-serif;
     }
 
     .card1 img{
@@ -175,9 +176,7 @@ height: 350px;
 
   width: 80%;
  }
- .nav .log{
-  margin-left: 6%;
- }
+
   .gold_icon img{
   
 width: 80%;
@@ -188,6 +187,9 @@ width: 80%;
 
  }
 
+}
+.section-collection{
+  margin-top: -5%;
 }
 
 
@@ -220,6 +222,7 @@ width: 80%;
         }
         .card-group .card .card-body p{
           text-align:justify;
+          height: auto;
         }
         .card-group .card .card-body h5{
           text-align:center;
@@ -386,4 +389,20 @@ height: 350px;width:350px; margin-top: -13%;margin-left: -15%;
 }
 
 
+}
+
+.vision{
+  width: 90%;
+  margin-left: 5%;
+}
+.vision h3{
+  color: white;
+  text-align: center;
+}
+.vision p{
+  color: white;
+  text-align: center;
+  background: #a15556;
+  padding: 5%;
+  font-size: 16px;
 }
