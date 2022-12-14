@@ -170,6 +170,7 @@ height: 350px;
 @media screen and (max-width: 1280px) {
  .card{
   width: 90%;
+  height: auto;
 
  }
  .section-aboutus .container.text-center .row .col{
@@ -387,8 +388,15 @@ height: 350px;width:350px; margin-top: -13%;margin-left: -15%;
 .cpy{
   font-size: 16px;
 }
+.card-body.content{
+  width: 90%;
+  
+}
 
-
+.vision h3{
+  color: white;
+  text-align: center;
+}
 }
 
 .vision{
@@ -399,10 +407,14 @@ height: 350px;width:350px; margin-top: -13%;margin-left: -15%;
   color: white;
   text-align: center;
 }
-.vision p{
+.vision h5{
   color: white;
   text-align: center;
   background: #a15556;
   padding: 5%;
   font-size: 16px;
+  line-height: 1.5;
+  font-weight:400;
+  font-family: sans-serif;
+
 }

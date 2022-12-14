@@ -2,94 +2,76 @@ body {
 	padding: 0;
 	margin: 0;
 }
-.container {
-	position: relative;
-	margin-top: 100px;
-}
-.container img {
-	display: block;
-	width: 100%;
-}
+
+
 nav {
 	position: fixed;
 	z-index: 10;
 	left: 0;
 	right: 0;
+    margin: 0 auto;
 	top: 0;
-	font-family:sans-serif;
-	padding: 0 8%;
-	background-color: #444343;
-	height: 18%;
+	font-family: 'Montserrat', sans-serif;
+	padding: 0 5%;
+	height: 130px;
+	background-color:#444343;
 }
-nav .logo{
-	margin-top: -5%;
-	margin-left: -15%;
-	
+nav .logo {
 	float: left;
-	width: 40%;
+	width: 65%;
 	height: 100%;
 	display: flex;
 	align-items: center;
 	font-size: 24px;
+    margin-top: -2.7%;
+    margin-left: -20%;
+
 	color: #fff;
-
+    
 }
-
-/* nav .logo img{
-	margin-top: 10%;
-	height: 150%;
-	width: 6%;
-
-} */
-
-nav .logo img{
-	margin-top: 14%;
-	height: 130%;
-
-	width: 60%;
-}
-
-/* nav .logo {
-	float: left;
-	width: 40%;
-	height: 100%;
-	display: flex;
-	align-items: center;
-	font-size: 24px;
-	color: #fff;
-} */
 nav .links {
 	float: right;
 	padding: 0;
 	margin: 0;
-	width: 60%;
+	width: 50%;
 	height: 100%;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 }
+nav .logo img {
+	float: left;
+	width: 50%;
+	height:auto;
+	display: flex;
+	align-items: center;
+	font-size: 24px;
+	color: #fff;
+}
+
 nav .links li {
 	list-style: none;
 }
 nav .links a {
 	display: block;
-	font-size: 14px;
-	color: #e3e3e3;
+	padding: 1em;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
 	text-decoration: none;
-	border: 1px solid #e3e3e3;
-	border-radius: 16px;
-	box-sizing: border-box;
-	background: #a15556;
-	font-family: sans-serif;
-	left: 0;
-	padding: 10px;
-	position: relative;
-	text-align: left;
-	top: 0;
-	width:100%;
-	font-size: 14.5px;
-
-text-align: center;
+    border-radius: 16px;
+    box-sizing: border-box;
+    font-family: Source Sans Pro;
+    background: #a15556;
+    left: 0;
+    padding: 10px;
+    margin-bottom: 1px;
+    
+    text-align: left;
+    top: 0;
+    width: 100%;
+    font-size: 14.5px;
+    text-align: center;
 }
 #nav-toggle {
 	position: absolute;
@@ -110,71 +92,70 @@ nav .icon-burger .line {
 	border-radius: 3px;
 	transition: all .3s ease-in-out;
 }
-nav .logo .company-name{
-	height:250%; width: 250%; margin-top: -10%; margin-left: -2%;
-}
-
 @media screen and (max-width: 980px) {
 	nav .logo {
 		float: none;
 		width: auto;
-		justify-content: center;
-		margin-top: -12%;
-	
-		margin-left: -20%;
-	    width: 90%;
-		height: 100%;
-	
-	
+        height: auto;
+        margin-top: 4%;
+		justify-content: left
+        
 	}
-	/* nav .logo{
-		margin-top: -5%;
-		
- */
-	
-	nav{
-		margin-top: -1%;
-	}
-	nav .logo img{
-		
-	
-	}
-	nav .logo .company-name{
+    nav{
+        margin-top: 0%;
 
-		width: 200px;
-		height: 200px;
-		margin-top: 8%;
-		
-	}
+    }
+    nav .logo img {
+        float: left;
+        width: 25%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        font-size: 24px;
+        color: #fff;
+    }
 	nav .links {
 		float: none;
-		position: fixed;
-		left: 50%;
+		
+	
+		left: 65%;
 		right: 0;
-		top: 10%;
+		top: 120PX;
 		bottom: 100%;
-		width: 60%;
-		height: auto;
+		width: 50%;
+        height: auto;
+        margin-bottom: 5%;
+        margin-bottom: 5%;
 		flex-direction: column;
 		justify-content: space-evenly;
 		/* background-color: rgba(0,0,0,.8); */
 		overflow: hidden;
 		box-sizing: border-box;
 		transition: all .5s ease-in-out;
+        /* border: 1px solid #e3e3e3; */
+
 	}
 	nav .links a {
-		font-size: 16px;
-		background: white;
-		color: black;
-
-		
+		font-size: 20px;
+        border-radius: 16px;
+        box-sizing: border-box;
+        color: black;
+        background: white;
+        left: 0;
+    
+        padding: 10px;
+        text-align: left;
+        top: 0;
+        width: 100%;
+        font-size: 14.5px;
+        text-align: center;
 	}
 	nav :checked ~ .links {
 		bottom: 0;
 	}
-
 	nav .icon-burger {
 		display: block;
+        margin-top: 0%;
 	}
 	nav :checked ~ .icon-burger .line:nth-child(1) {
 		transform: translateY(10px) rotate(225deg);
@@ -186,15 +167,6 @@ nav .logo .company-name{
 		opacity: 0;
 	}
 	
-}
 
-@media screen and (max-width: 600px) {
-	nav .logo img{
-		margin-top: 25%;
-		height: 100%;
-	
-		width: 75%;
-	}
 }
-
 
