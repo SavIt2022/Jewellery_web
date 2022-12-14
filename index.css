@@ -16,6 +16,7 @@
           display: block;
           margin: 0 auto;
       }
+
       
  
     .logo{
@@ -134,7 +135,7 @@ text-align: center;
 
 
 .home-image img{
-margin-top: 2%;
+margin-top: 5.5%;
 width:100%;
 height: 670px;
 
@@ -257,7 +258,7 @@ width: 80%;
         
 
 
-button{
+/* button{
 border: 1px solid #e3e3e3;
 border-radius: 16px;
 box-sizing: border-box;
@@ -272,6 +273,18 @@ width: 23%;
 font-size: 14.5px;
 
 text-align: center;
+} */
+button{
+  padding: 5px;
+  width: 10%;
+  height: 60px;
+  border-radius: 16px;
+  font-size: 14.5px;
+  background: #a15556;
+  color: white;
+  margin-top: 3%;
+  border: 1px solid #e3e3e3;
+
 }
 .new-footer{
 background: #a15556;
