@@ -271,7 +271,6 @@ text-align: left;
 top: 0;
 width: 23%;
 font-size: 14.5px;
-
 text-align: center;
 } */
 button{
@@ -279,12 +278,16 @@ button{
   width: 10%;
   height: 60px;
   border-radius: 16px;
+
   font-size: 14.5px;
   background: #a15556;
   color: white;
   margin-top: 3%;
   border: 1px solid #e3e3e3;
 
+}
+.title{
+  line-height: 1.8;
 }
 .new-footer{
 background: #a15556;
