@@ -2,10 +2,9 @@ var i=0;
 var time =6000;
 var images=[];
   images[0]='newimages/Capture 1.PNG';
-  images[1]='newimages/Capture 2.jpg';
-  images[2]='newimages/Capture 5.jpg';
-  images[3]='newimages/Capture3.JPG';
-  
+  images[1]='newimages/Capture 2.PNG';
+  images[2]='newimages/Capture 5.PNG';
+  images[3]='newimages/Capture3.PNG';
   images[4]='newimages/Capture6.JPG';
   function imageSlide(){
       document.slide.src=images[i]
