@@ -13,13 +13,11 @@ nav {
 	top: 0;
 	font-family: 'Montserrat', sans-serif;
 	padding: 0 5%;
-	height: 160px;
+	height:auto;
 	background-color:#444343;
 }
 nav .logo {
 	float: left;
-	width: 65%;
-	height: 100%;
 	display: flex;
 	align-items: center;
 	font-size: 24px;
@@ -41,7 +39,7 @@ nav .links {
 }
 nav .logo img {
 	float: left;
-	width: 50%;
+	
 	height:auto;
 	display: flex;
 	align-items: center;
