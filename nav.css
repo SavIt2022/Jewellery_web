@@ -4,6 +4,7 @@ body {
 }
 
 
+
 nav {
 	position: fixed;
 	z-index: 10;
@@ -23,7 +24,7 @@ nav .logo {
 	display: flex;
 	align-items: center;
 	font-size: 24px;
-    margin-top: auto;
+    margin-top: -1.2%;
     margin-left: -20%;
 
 	color: #fff;
@@ -93,6 +94,10 @@ nav .icon-burger .line {
 	border-radius: 3px;
 	transition: all .3s ease-in-out;
 }
+
+
+
+
 @media screen and (max-width: 1024px) {
 	nav .logo {
 		float: none;
