@@ -55,7 +55,7 @@
      color: white;
     
 }
-@media screen and (max-width:1180px){
+@media screen and (max-width:980px){
     .about{
         width:90%;
         height: auto;
