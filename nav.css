@@ -23,7 +23,7 @@ nav .logo {
 	display: flex;
 	align-items: center;
 	font-size: 24px;
-    margin-top: -1%;
+    margin-top: auto;
     margin-left: -20%;
 
 	color: #fff;
