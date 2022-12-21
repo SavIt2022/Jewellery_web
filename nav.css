@@ -14,7 +14,7 @@ nav {
 	top: 0;
 	font-family: 'Montserrat', sans-serif;
 	padding: 0 5%;
-	height: 160px;
+	height: 190px;
 	background-color:#444343;
 }
 nav .logo {
@@ -24,7 +24,7 @@ nav .logo {
 	display: flex;
 	align-items: center;
 	font-size: 24px;
-    margin-top: -1.2%;
+    margin-top: 0.2%;
     margin-left: -20%;
 
 	color: #fff;
