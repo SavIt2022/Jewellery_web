@@ -685,7 +685,7 @@ a {
 }
 
 .form_cont form textarea {
-    width: 100%;
+    width: 90%;
     border-radius: 10%;
     height: 100px;
     padding: 20px 30px;
