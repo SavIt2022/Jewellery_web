@@ -15,6 +15,7 @@
 .about .content img{
     height: auto;
     width: 600px;
+   
     max-width: 100%;
 
 }
@@ -110,3 +111,29 @@
         }
   
 }
+
+.abouts{
+    color:white; margin-top:5%; padding-bottom:4%
+}
+.row.row-cols-1.row-cols-md-2.g-4{
+    background-color: white; width: 90%; margin-left: 5%;
+}
+
+.col .card.card-museum {
+    border: none;
+}
+
+.col .card.card-museum .card-body.content{
+    height: 300px; text-align: justify; padding: 1%;
+}
+.col .card.card-image{
+    height: 300px; border:none;
+
+}
+
+.col .card.card-museum .card-body.content p{
+    text-align: justify;
+    font-size: 15px;
+    
+}
+

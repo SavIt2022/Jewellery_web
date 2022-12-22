@@ -240,12 +240,16 @@ width: 80%;
           height:25%;
         }
         .card-museum{
-          width: 80%;
-          margin-left: 10%;
+          width: 90%;
+          font-size: 17px;
+          
+         
          
         }
         .col{
           height: 400px;
+          padding: 5px;
+       
         }
         .card-text{
           height: 250px;
@@ -253,8 +257,9 @@ width: 80%;
     
 
         .card-image{
-          width: 80%;
+          width: 90%;
           margin-left: 10%;
+          
           height: 350px;
 
           
@@ -298,6 +303,7 @@ button{
 .new-footer{
 background: #a15556;
 color: white; 
+border-radius: 10px;
 }
 .row1{
 margin-top: 5%;
@@ -380,7 +386,11 @@ width: 450px;
 } */
 
 .abouts{
-color: white; margin-top:3%; padding-bottom:2%
+color: white; margin-top:3%; padding-bottom:2%;
+width: 90%;
+margin-left: 5%;
+
+
 }
 .cpy{
   font-size: 15px;
@@ -415,7 +425,7 @@ height: 350px;width:350px; margin-top: -13%;margin-left: -15%;
   
 }
 
-.vision h3{
+.vision h2{
   color: white;
   text-align: center;
 }
@@ -426,8 +436,10 @@ height: 350px;width:350px; margin-top: -13%;margin-left: -15%;
 .vision{
   width: 90%;
   margin-left: 5%;
+
 }
-.vision h3{
+
+.vision h2{
   color: white;
   text-align: center;
 }
@@ -440,5 +452,6 @@ height: 350px;width:350px; margin-top: -13%;margin-left: -15%;
   line-height: 1.5;
   font-weight:400;
   font-family: sans-serif;
+  border-radius: 5px;
 
 }
