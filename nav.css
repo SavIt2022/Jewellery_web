@@ -206,9 +206,15 @@ nav .icon-burger .line {
 	
 	}
 @media (max-width:660px){
-	.row.contact .col-md-12 .row{
-		margin-top: 45%;
+	.row.contact .col-md-12 .contact_section .row{
+		margin-top: 25%;
+		
 	}
+	.row.contact .col-md-12 .row .text-align{
+		padding-bottom: 10%;
+	}
+
+
 	.title-abouts .abouts{
 		margin-top: 50%;
 	}
@@ -223,6 +229,10 @@ nav .icon-burger .line {
 		
 		}
 
+	
+}
+.row.contact .col-md-12 .row{
+	margin-top: 13%;
 	
 }
 .abouts{
