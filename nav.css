@@ -177,8 +177,61 @@ nav .icon-burger .line {
 	nav :checked ~ .icon-burger .line:nth-child(2) {
 		opacity: 0;
 	}
-	
+	.row.contact .col-md-12 .row{
+		margin-top: 22%;
+	}
+	.title-abouts .abouts{
+		margin-top: 35%;
+	}
+	.title-collection .collection{
+		color:white; margin-top:35%;
+		padding-bottom: 20px;
+	}
 
+	.section-collection{
+		margin-top: 13%;
+	}
+
+
+}
+@media (max-width:952px){
+
+
+	.home-image img{
+	margin-top: 20%;
+	width:100%;
+	height: 300px;
+	
+	}
+	
+	}
+@media (max-width:660px){
+	.row.contact .col-md-12 .row{
+		margin-top: 45%;
+	}
+	.title-abouts .abouts{
+		margin-top: 50%;
+	}
+	.title-collection .collection{
+		color:white; margin-top:50%;
+		padding-bottom: 20px;
+	}
+	.home-image img{
+		margin-top: 20%;
+		width:100%;
+		height: 300px;
+		
+		}
+
+	
+}
+.abouts{
+
+	color:white; margin-top:13%
+}
+.collection{
+	color:white; margin-top:13%;
+	text-align: center;
 }
 
 .logo img {
