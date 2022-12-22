@@ -670,8 +670,9 @@ a {
 }
 
 .form_cont form input {
-    width: 100%;
+    width: 90%;
     border-radius: 10%;
+    margin-left: 5%;
     height: 60px;
     padding: 10px 30px;
     background: white;
