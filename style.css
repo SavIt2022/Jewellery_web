@@ -704,10 +704,12 @@ a {
 
 @media (max-width:952px){
     .form_cont form textarea {
-        width: 100%;
+        width: 90%;
+        margin-left: 5%;
     }
     .form_cont form input {
-        width: 100%;
+        width: 90%;
+        margin-left: 5%;
     }
 }
 
