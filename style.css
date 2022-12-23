@@ -665,9 +665,12 @@ a {
 
 .form_cont form {
     width: 450px;
+    
    
 
 }
+
+
 
 .form_cont form input {
     width: 90%;
@@ -685,7 +688,7 @@ a {
 }
 
 .form_cont form textarea {
-    width: 90%;
+    width: 100%;
     border-radius: 10%;
     height: 100px;
     padding: 20px 30px;
@@ -698,6 +701,15 @@ a {
     margin: 20px 0 0 0;
 }
 
+
+@media (max-width:952px){
+    .form_cont form textarea {
+        width: 100%;
+    }
+    .form_cont form input {
+        width: 100%;
+    }
+}
 
 /* .product_section {
     position: relative;
