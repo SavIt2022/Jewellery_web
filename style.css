@@ -348,10 +348,7 @@ form#commant_form div.field textarea.custom_field {
     margin-bottom: 10px;
 }
 
-.form_full textarea {
-    min-height: 100px;
-    width: 100%;
-}
+
 
 .border-radius_0 {
     border-radius: 0 !important;
@@ -363,6 +360,10 @@ form#commant_form div.field textarea.custom_field {
     height: 50px;
 }
 
+.form_full textarea {
+    min-height: 100px;
+    width: 90%;
+}
 .small_heading.main-heading {
     margin-bottom: 20px;
     width: 100%;
@@ -688,7 +689,7 @@ a {
 }
 
 .form_cont form textarea {
-    width: 100%;
+    width: 90%;
     border-radius: 10%;
     height: 100px;
     padding: 20px 30px;
