@@ -711,6 +711,9 @@ a {
         width: 90%;
         margin-left: 5%;
     }
+    .form_cont .field.center .btn-send-querry {
+       margin-left: 30%;
+    }
 }
 
 /* .product_section {
