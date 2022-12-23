@@ -211,9 +211,7 @@ width: 80%;
           
         }
         
-        .card-group .card .card-body .card-image{
-          
-        }
+ 
 
         .card-group .card .card-body .card-image img{
           width: 60px;
@@ -413,7 +411,9 @@ height: 350px;width:350px; margin-top: -13%;margin-left: -15%;
   width: 100%;
 
   }
-
+.card-group .card{
+  margin-top: 5%;
+}
 .cpy{
   font-size: 16px;
 }
