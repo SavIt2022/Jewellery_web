@@ -702,7 +702,7 @@ a {
 }
 
 
-@media (max-width:952px){
+@media (max-width:660px){
     .form_cont form textarea {
         width: 90%;
         margin-left: 5%;
