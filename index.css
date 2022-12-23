@@ -210,12 +210,16 @@ width: 80%;
           margin: 0 auto;
           
         }
-     
+        
+        .card-group .card .card-body .card-image{
+          
+        }
 
-        .card-group .card .card-body img{
+        .card-group .card .card-body .card-image img{
           width: 60px;
-          height: 60px;
+          height: 10px;
           display: block;
+
           margin: 0 auto;
         }
         .card-group .card .card-body p{
