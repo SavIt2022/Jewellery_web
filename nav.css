@@ -59,9 +59,16 @@ nav .logo img {
 	color: #fff;
 }
 
+
 nav .links li {
 	list-style: none;
 }
+/* ul{
+
+	
+	} */
+	
+
 nav .links a {
 	display: block;
 	padding: 1em;
@@ -107,7 +114,7 @@ nav .icon-burger .line {
 
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1290px) {
 	nav .logo {
 		float: none;
 		width: auto;

@@ -214,10 +214,9 @@ width: 80%;
  
 
         .card-group .card .card-body .card-image img{
-          width: 60px;
+          width: auto;
           height: 10px;
           display: block;
-
           margin: 0 auto;
         }
         .card-group .card .card-body p{
@@ -253,8 +252,6 @@ width: 80%;
         .card-image{
           width: 85%;
           margin-left: 15%;
-        
-          
           height: 350px;
 
           
@@ -369,7 +366,6 @@ margin: 0 auto;
 /* about us */
 .section-aboutus .container.text-center .row .col img{
 width: 90%;
-
 height: auto;
 display: block;
 margin: 0 auto;
