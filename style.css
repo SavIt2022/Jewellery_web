@@ -76,10 +76,7 @@ ul{
    
 }
 
-.card:hover img {
-    transform: scale(1.2);
-  
-}
+
 
 .nav.justify-content-center{
     margin-top: 3%;
