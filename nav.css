@@ -17,9 +17,7 @@ nav {
 	padding: 0 5%;
 	height: 25%;
 	background-color:#444343;
-
-    
-		box-shadow: 1px 1px;
+    box-shadow: 1px 1px;
 	
 	
 		
@@ -63,6 +61,7 @@ nav .logo img {
 nav .links li {
 	list-style: none;
 }
+
 /* ul{
 
 	
@@ -270,6 +269,8 @@ nav .icon-burger .line {
 .collection{
 	color:white; margin-top:13%;
 	text-align: center;
+	font-family: sans-serif;
+
 }
 
 .logo img {
