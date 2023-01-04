@@ -115,6 +115,8 @@ nav .icon-burger .line {
 
 
 @media screen and (max-width: 1290px) {
+
+
 	nav .logo {
 		float: none;
 		width: auto;
@@ -208,6 +210,9 @@ nav .icon-burger .line {
 		margin-top: 20%;
 		margin-bottom: 5%;
 	}
+	.title-collection{
+		margin-top: 37%;
+	}
 
 
 }
@@ -225,6 +230,7 @@ nav .icon-burger .line {
 	/* height: 25%; */
 	
 	}
+
 	
 	}
 @media (max-width:660px){
@@ -251,7 +257,6 @@ nav .icon-burger .line {
 		
 		}
 
-	
 }
 .row.contact .col-md-12 .row{
 	margin-top: 13%;
