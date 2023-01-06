@@ -17,7 +17,8 @@ nav {
 	padding: 0 5%;
 	height: 25%;
 	background-color:#444343;
-    box-shadow: 1px 1px;
+    box-shadow: 1px 1px  #222222
+	
 	
 	
 		
@@ -82,7 +83,6 @@ nav .links a {
     left: 0;
     padding: 10px;
     margin-bottom: 1px;
-    
     text-align: left;
     top: 0;
     width: 100%;
@@ -109,10 +109,59 @@ nav .icon-burger .line {
 	transition: all .3s ease-in-out;
 }
 
+	@media screen and (max-width: 1290px) and (min-width: 1120px) {
+
+		nav .links a{
+	
+			margin-left: 5%;
+			padding: 10px;
+			font-size: 16px;
+			padding-top: 8px;
+			padding-bottom: 8px;
+		}
+	
+	}
+	@media screen and (max-width: 1119px) and (min-width: 1024px) {
+		nav .links a{
+	
+			margin-left: 5%;
+			padding: 7px;
+			font-size: 14px;
+			padding-top: 8px;
+			padding-bottom: 8px;
+		}
+
+	}
+	@media screen and (max-width: 1023px) and (min-width: 953px) {
+		nav .links a{
+	
+			margin-left: 5%;
+			padding: 5px;
+			font-size: 13px;
+			padding-top: 8px;
+			padding-bottom: 8px;
+		}
+	
+
+	}
+	@media screen and (max-width: 1290px) and (min-width: 953px) {
 
 
+	nav .links {
+		width: 55%;
+		margin: auto;
+		
 
-@media screen and (max-width: 1290px) {
+	}
+
+	.home-image{
+		margin-top: 40px;
+	}
+
+}
+
+
+@media screen and (max-width: 952px) {
 
 
 	nav .logo {
@@ -121,6 +170,8 @@ nav .icon-burger .line {
         height: auto;
 		justify-content: left;
 		margin-top: auto;
+		visibility: hidden;
+
         
 	}
 	
@@ -213,7 +264,11 @@ nav .icon-burger .line {
 
 
 }
-@media (max-width:952px){
+
+
+
+
+@media screen and (max-width:952px){
 
 	nav{
         margin-top: 0%;
@@ -229,7 +284,7 @@ nav .icon-burger .line {
 
 	
 	}
-@media (max-width:660px){
+	@media screen and (max-width:660px){
 	.row.contact .col-md-12 .contact_section .row{
 		margin-top: 50%;
 		
@@ -279,3 +334,12 @@ nav .icon-burger .line {
 body{
 	font-family: sans-serif;
 }
+
+
+
+
+
+
+
+
+

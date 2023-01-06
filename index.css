@@ -155,10 +155,11 @@ height: 650px;
   margin: auto;
   width: 90%;
 }
+
 }
 
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1023px) {
  .card{
   width: 90%;
   height: auto;
@@ -199,17 +200,6 @@ width: 80%;
   font-family: sans-serif;
   margin: 0 auto;
 }
-    .title{
-          width: 80%;
-          text-align: justify;
-          color: white;
-          display: block;
-          margin: 0 auto;
-      }
-      .title1{
-          text-align: center; 
-          color: white;
-      }
 
         .collections{
         margin-top: -1.5%;
@@ -285,21 +275,37 @@ font-size: 14.5px;
 text-align: center;
 } */
 button{
-  padding: 5px;
-  width: 10%;
+
+  width: 15%;
   height: 60px;
   border-radius: 16px;
-
   font-size: 14.5px;
+  
   background: #a15556;
   color: white;
-  margin-top: 3%;
+  margin-top: 4%;
   border: 1px solid #e3e3e3;
 
 }
-.title{
-  line-height: 1.8;
+button li a{
+  text-align: center;
 }
+
+
+.title{
+  width: 50%;
+  color: white;
+  display: block;
+  margin: 0 auto;
+  line-height: 1.8;
+
+}
+.title1{
+
+  text-align: center; 
+  color: white;
+}
+
 .new-footer{
 background: #a15556;
 color: white; 
@@ -398,11 +404,13 @@ margin-left: 5%;
 
 
 
-@media screen and (max-width:1280px) {
+@media screen and (max-width:952px) {
 .nav .log{
 margin-top: -1%;
 
 }
+
+
 .nav .log .logo{
 height: 230px;
 width:230px;  
@@ -451,7 +459,6 @@ height: 350px;width:350px; margin-top: -13%;margin-left: -15%;
   background: #a15556;
   padding: 5%;
   font-size: 16px;
-
   line-height: 1.5;
   font-weight:400;
   font-family: sans-serif;

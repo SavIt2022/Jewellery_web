@@ -1,0 +1,289 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+   }
+      body{
+        background: #444343;
+        font-family: sans-serif;
+      }
+  
+      .card1 img{
+            height: 350px;
+            width: 50%;
+            display: block;
+            margin: 0 auto;
+        }
+  
+        
+   
+      .logo{
+        padding: 0 100px;
+      }
+      .logo .log .company-name{
+      height: 100%;
+      width:32%;
+      margin-top: -1%;
+      margin-left: -5%; 
+  
+      }
+  
+  
+  .home-image img{
+  margin-top: 6.5%;
+  width:100%;
+  height: 650px;
+  
+  }
+  
+  
+  
+  @media (max-width:952px)
+  {
+  
+  .col{
+    margin: auto;
+    width: 90%;
+  
+  }
+  .card{
+    margin: auto;
+    width: 90%;
+  }
+  
+  }
+  
+  
+  @media screen and (max-width: 1023px) {
+   .card{
+    width: 90%;
+    height: auto;
+  
+   }
+   .section-aboutus .container.text-center .row .col{
+  
+    width: 80%;
+   }
+  
+    .gold_icon img{
+    
+  width: 80%;
+  
+   }
+    .gold_icon .form_cont{
+    width: 80%;
+  
+   }
+  
+  
+  
+  
+  }
+  .section-collection{
+    margin-top: -5%;
+  }
+  
+  .section-granite p{
+    color: white;
+    text-align: center;
+    width: 80%;
+    line-height: 1.5;
+    display: block;
+    font-family: sans-serif;
+    margin: 0 auto;
+  }
+  
+          .collections{
+          margin-top: -1.5%;
+          }
+          .card-group .card .card-body {
+            margin: 0 auto;
+            
+          }
+          
+   
+  
+          .card-group .card .card-body .card-image img{
+            width: auto;
+            height: 10px;
+            display: block;
+            margin: 0 auto;
+          }
+          .card-group .card .card-body p{
+            text-align:justify;
+            height: auto;
+          }
+          .card-group .card .card-body h5{
+            text-align:center;
+          }
+          .card-group .card  a img{
+            width: 50%;
+            height:25%;
+          }
+          .card-museum{
+            width: 85%;
+            font-size: 17px;
+           
+           
+          }
+          .col{
+            height: auto;
+            padding: 5px;
+            padding-bottom: 15px;
+          }
+          .card-image{
+            width: 85%;
+            margin-left: 15%;
+            height: 350px;
+  
+            
+          }
+  /* button{
+  border: 1px solid #e3e3e3;
+  border-radius: 16px;
+  box-sizing: border-box;
+  font-family: Source Sans Pro;
+  background: #a15556;
+  left: 0;
+  padding: 10px;
+  position: relative;
+  text-align: left;
+  top: 0;
+  width: 23%;
+  font-size: 14.5px;
+  text-align: center;
+  } */
+  button{
+  
+    width: 15%;
+    height: 60px;
+    border-radius: 16px;
+    font-size: 14.5px;
+    
+    background: #a15556;
+    color: white;
+    margin-top: 4%;
+    border: 1px solid #e3e3e3;
+  
+  }
+  button li a{
+    text-align: center;
+  }
+  
+  
+  .title{
+    width: 50%;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    line-height: 1.8;
+  
+  }
+  .title1{
+  
+    text-align: center; 
+    color: white;
+  }
+  .cpy{
+  text-align: center;
+  padding-bottom: 1%;
+  }
+  .card-group .card .card-body p{
+  text-align: center;
+  }
+  /* responsive */
+  
+  .section-aboutus {
+  margin-top: 5%;
+  margin-bottom:5%;
+  display: block;
+  margin-top: 14%;    
+  background: #a15556; 
+  color: white;
+  width: 80%; 
+  margin: 0 auto; 
+  
+  padding: 4%;
+  }
+  .section-aboutus .container.text-center .row {
+  height: auto;
+  }
+  .section-aboutus .container.text-center .row .col {
+  text-align: justify;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  
+  }
+  /* about us */
+  .section-aboutus .container.text-center .row .col img{
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  }
+  
+  /* .col img{
+  height:300px;
+  width: 450px;
+  } */
+  
+  .abouts{
+  color: white; margin-top:3%; padding-bottom:2%;
+  width: 90%;
+  margin-left: 5%;
+  
+  
+  
+  }
+  .cpy{
+    font-size: 15px;
+  }
+  
+  
+  
+  @media screen and (max-width:952px) {
+  
+  .card-group .card{
+    margin-top: 5%;
+  }
+  .cpy{
+    font-size: 16px;
+  }
+  .card-body.content{
+    width: 90%;
+    
+  }
+  
+  .vision h2{
+    color: white;
+    text-align: center;
+  }
+  
+  
+  }
+  
+  .vision{
+    width: 90%;
+    margin-left: 5%;
+  
+  }
+  
+  .vision h2{
+    color: white;
+    text-align: center;
+  }
+  .vision h5{
+    color: white;
+    text-align: center;
+    background: #a15556;
+    padding: 5%;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight:400;
+    font-family: sans-serif;
+    border-radius: 5px;
+  
+  }

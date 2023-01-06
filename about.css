@@ -37,34 +37,8 @@
         width: 90%;
         height: auto;
         }
-        .culture .content{
-            height: auto;
-        }
-        .culture  .content .text{
-            margin: 90%;
-            height: auto;
-        }
-        
-        .culture .content img{
-    
-            width: 90%;
-            height: auto;
-            }}
+}
 
-.culture{
-    width:90%;
-    height: 60vh;
-    background:white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 5%;
-    color: black;
-   
-}
-.culture .text{
-    color: black; 
-}
 
 .text{
     width: 550px;
@@ -122,9 +96,6 @@
 
 .abouts{
     color:white;
-}
-.about {
-    margin-top: -5%;
 }
 .row.row-cols-1.row-cols-md-2.g-4{
     background-color: white; width: 90%; margin-left: 5%;

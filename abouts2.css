@@ -1,0 +1,121 @@
+.about{
+    width:90%;
+    height: auto;
+    padding: 5%;
+    background:#a15556;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    font-family: sans-serif;
+
+
+   
+}
+
+
+.about .content img{
+    height: auto;
+    width: 700px;
+   margin-top: 0%;
+    max-width: 100%;
+
+}
+
+@media screen and (max-width:1024){
+
+    .about .content{
+        height: auto;
+    }
+    .about .content .text{
+        margin: 90%;
+        height: auto;
+    }
+    
+    .about .content img{
+
+        width: 90%;
+        height: auto;
+        }
+}
+
+
+.text{
+    width: 550px;
+    max-width: 100%;
+    padding:  10px;
+}
+.content{
+    width: 1280px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+
+
+}
+.text p{
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: sans-serif;
+     color: white;
+    
+}
+
+
+
+    @media screen and (max-width:650px){
+        .col{
+            width: 90%;
+        }
+        .about .content .img{
+            margin-bottom: 35px;
+          
+
+        }
+        .row.row-cols-1.row-cols-md-2.g-4{
+            height: 1050px;
+        }
+        .card.card-museum{
+            height: 480px;
+            margin-top: -25%;
+        }
+        .card.card-image{
+            margin-top: 5%;
+        }
+ 
+        .about{
+            height: auto;
+            
+        }
+
+}
+
+.abouts{
+    color:white;
+}
+.row.row-cols-1.row-cols-md-2.g-4{
+    background-color: white; width: 90%; margin-left: 5%;
+}
+
+.col .card.card-museum {
+    border: none;
+}
+
+.col .card.card-museum .card-body.content{
+    height: 300px; text-align: justify; padding: 1%;
+}
+.col .card.card-image{
+    height: 300px; border:none;
+
+}
+
+.col .card.card-museum .card-body.content p{
+    text-align: justify;
+    font-size: 15px;
+    
+}
+
